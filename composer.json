@@ -1,0 +1,15 @@
+{
+    "name": "enesdayanc/masterpass-void",
+    "description": "Package generated from https://masterpassturkiye.com:8082/MMIUIMasterPass_V2/MerchantServices/MPGMerchantTransactionVoidService.asmx?WSDL using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "~1.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Enesdayanc\\MasterpassVoid\\": "./src/"
+        }
+    }
+}
